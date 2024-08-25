@@ -239,41 +239,47 @@ img {
 }
 
 /* benefit section */
-.benefit_cont{
+.benefit_cont {
     margin-bottom: 100px;
 }
+
 .benefit_head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
 }
-.benefit_hedding{
+
+.benefit_hedding {
     font-size: 48px;
     font-weight: 600;
     line-height: 150%;
 }
-.benefit_desc{
+
+.benefit_desc {
     font-size: 18px;
     line-height: 150%;
     font-weight: 400;
 }
-.benefit_left{
+
+.benefit_left {
     max-width: 950px;
 }
-.card_wrap{
+
+.card_wrap {
     /* display: flex;
     justify-content: space-between;
     align-items: center; */
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     /* flex-wrap: wrap; */
 }
-.card{
-     display: flex;
+
+.card {
+    display: flex;
     flex-direction: column;
-    text-align: start; 
+    text-align: start;
     align-items: end;
     /* max-width: 393px; */
     /* height: 437px; */
@@ -282,141 +288,167 @@ img {
     border-radius: 12px;
     background-color: var(--white-color);
 }
-.card_number{
+
+.card_number {
     font-size: 80px;
     font-weight: bold;
     margin-bottom: 50px;
-    
+
 }
-.card_tile{
+
+.card_tile {
     align-self: baseline;
     margin-bottom: 14px;
     font-size: 24px;
     font-weight: 600;
     line-height: 150%;
 }
-.card_desc{
+
+.card_desc {
     margin-bottom: 50px;
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
     align-self: baseline;
 }
-.arrow{
+
+.arrow {
     padding: 10px;
     border: 1px solid #F1F1F3;
     outline: none;
     background-color: #FCFCFD;
     border-radius: 8px;
 }
-.arrow img{
+
+.arrow img {
     max-width: 34px;
     height: 34px;
     display: block;
 }
+
 /* course section*/
-.cousre_cont{
+.cousre_cont {
     margin-bottom: 108px;
 }
+
 .course_head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
 }
-.course_heading{
+
+.course_heading {
     font-size: 48px;
     font-weight: 600;
     line-height: 150%;
 }
-.course_desc{
+
+.course_desc {
     font-size: 18px;
     line-height: 150%;
     font-weight: 400;
 }
-.course_left{
+
+.course_left {
     max-width: 950px;
 }
-.cards_warp{
+
+.cards_warp {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
 }
-.cousres{
+
+.cousres {
     border-radius: 12px;
     background-color: var(--white-color);
     padding: 50px;
     width: 48%;
 }
-.cousres_img{
+
+.cousres_img {
     margin-bottom: 30px;
 }
 
-.cousres_inner{
+.cousres_inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
     margin-bottom: 30px;
 }
-.duration{
+
+.duration {
     display: flex;
     gap: 10px;
 }
-.name{
+
+.name {
     font-size: 20px;
     font-weight: 400;
 }
-.course_name{
+
+.course_name {
     font-size: 24px;
     font-weight: 600;
     line-height: 150%;
     margin-bottom: 14px;
 }
-.course_cardDesc{
+
+.course_cardDesc {
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
     margin-bottom: 30px;
 }
-.getNow{
+
+.getNow {
     width: 100%;
 }
+
 /*  testimonials  section */
 
-.benefit_cont{
-    margin-bottom: 100px;
+.testimonials_cont {
+    margin-bottom: 168px;
 }
+
 .testimonials_head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
 }
-.testimonials_cards{
+
+.testimonials_cards {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.testimonials_heading{
+
+.testimonials_heading {
     font-size: 48px;
     font-weight: 600;
     line-height: 150%;
 }
-.testimonials_desc{
+
+.testimonials_desc {
     font-size: 18px;
     line-height: 150%;
     font-weight: 400;
 }
-.testimonials_left{
+
+.testimonials_left {
     max-width: 950px;
 }
-.testimonials_card{
+
+.testimonials_card {
     background-color: var(--white-color);
     border-radius: 12px;
 }
-.testimonials_cardBtm{
+
+.testimonials_cardBtm {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -424,15 +456,132 @@ img {
     padding: 30px 50px 30px 50px;
     background-color: #FCFCFD;
 }
-.testimonials_cardDesc{
+
+.testimonials_cardDesc {
     padding: 50px;
     font-size: 18px;
     font-weight: 600;
     line-height: 150%;
 }
-.student{
+
+.student {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+/* pricing section */
+.pricing_cont {
+    margin-bottom: 150px;
+}
+
+.pricing_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.pricing_heading {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.pricing_desc {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.pricing_left {
+    max-width: 950px;
+}
+
+.pricing_btns {
+    display: flex;
+    padding: 12px;
+    background-color: var(--white-color);
+    gap: 4px;
+    border-radius: 8px;
+}
+
+.pricing_cards {
+    background-color: var(--white-color);
+    padding: 80px;
+    border-radius: 12px;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.pricing_card {
+    border-radius: 12px;
+    background-color: #FCFCFD;
+    padding: 50px 30px 30px 30px;
+}
+
+.plan {
+    background-color: #FFEACC;
+    width: 100%;
+    color: var(--black-color);
+    margin-bottom: 50px;
+}
+
+.pricing_price {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 73%;
+    margin-bottom: 50px;
+}
+
+.pricing_price sub {
+    font-size: 20px;
+    line-height: 73%;
+    color: #4C4C4D;
+}
+
+.pricing_inner {
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    border-radius: 12px;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.pricing_subHeading {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricing_item {
+    display: flex;
+    gap: 12px;
+    padding: 14px;
+    align-items: center;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.pricing_item img {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    background-color: #FFF4E5;
+    border-radius: 6px;
+    display: block;
+}
+
+.Started {
+    width: 100%;
+    margin-top: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
